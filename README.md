@@ -17,7 +17,7 @@ To install the game, follow these steps:
 <div>
   <ol>
     <li>Clone the repository to your local machine using Git:<br>
-    git clone https://github.com/username/tic-tac-toe.git <br>
+    git clone https://github.com/username/Tic-Tac-Toe.git <br>
     Alternatively, you can download the source code as a ZIP file and extract it to a directory on your machine.</li>
 
 <li>Open a terminal or command prompt window and navigate to the directory where you cloned or extracted the source code.</li>
