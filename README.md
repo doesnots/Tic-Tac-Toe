@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+<h1>Tic-Tac-Toe Written in React</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Tic Tac Toe game built with React. You can play the game in your web browser. This README file explains how to deploy the game on your local machine.
 
-## Available Scripts
+<h2>Prerequisites</h2>
+Before you can deploy the game, you need to have the following software installed on your machine:
 
-In the project directory, you can run:
+<div>
+<ul>
+<li>Node.js and npm (Node Package Manager)</li>
+<li>Git (optional, but recommended)</li>
+</ul>
+<div>
 
-### `npm start`
+<h2>Installation</h2>
+To install the game, follow these steps:
+<div>
+  <ol>
+    <li>Clone the repository to your local machine using Git:<br>
+    git clone https://github.com/username/tic-tac-toe.git <br>
+    Alternatively, you can download the source code as a ZIP file and extract it to a directory on your machine.</li>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<li>Open a terminal or command prompt window and navigate to the directory where you cloned or extracted the source code.</li>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<li>Install the dependencies by running the following command:</li><br>
+    <b>npm install</b>
+  </ol>
+</div>
 
-### `npm test`
+<h2>Running the Game </h2
+  To run the game, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <div>
+    <ol>
+      <li>Open a terminal or command prompt window and navigate to the directory where you cloned or extracted the source code.</li>
 
-### `npm run build`
+  <li>Run the following command to start the game:<br>
+     <b> npm start</b></li>
+  <li>To play the game, click on a square to make a move. The game will automatically detect if someone has won or if the game is a draw.</li>
+    </ol>
+  </div>
+  
+<h2>Building and Deploying the Game</h2>
+  To build and deploy the game to a production server, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <div>
+    <ol>
+      <li>Open a terminal or command prompt window and navigate to the directory where you cloned or extracted the source code.</li>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <li>Run the following command to build the game:<br>
+     <b>npm run build</b></li>
+  <li>Deploy the contents of the build directory to a web server of your choice. You can use any web server that supports serving static files, such as         Apache or Nginx.</li>
+  <li>If you want to serve the game on a specific port, you can use a package like serve to serve the build files:<br>
+    <b>npm install -g serve <br>
+       serve -s build -l 3000</b></li>
+    </ol>
+  </div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will start a web server on port 3000 and serve the game from the build directory.
+  
